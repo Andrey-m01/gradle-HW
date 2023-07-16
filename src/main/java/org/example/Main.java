@@ -1,5 +1,11 @@
-package org.example;public class Main {
+package org.example;
+
+import org.example.utils.SumCalculator;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SumCalculator sumCalc = new SumCalculator();
+        System.out.println(sumCalc.sum(2));
+
     }
 }
